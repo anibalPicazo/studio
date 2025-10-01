@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="bg-primary/10 dark:bg-primary/20 py-20 text-center sm:py-32"
+      className="bg-primary py-20 text-center sm:py-32"
     >
       <div className="container mx-auto max-w-5xl px-4">
         <div className="flex flex-col items-center justify-center gap-8">
@@ -17,25 +17,25 @@ export function Hero() {
             width={120}
             height={120}
             priority
-            className="rounded-full border-4 border-primary shadow-lg"
+            className="rounded-full border-4 border-primary-foreground shadow-lg"
             data-ai-hint={profile.avatar.imageHint}
           />
-          <div className="space-y-4">
+          <div className="space-y-4 text-primary-foreground">
             <h1 className="font-headline text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
               {profile.name}
             </h1>
-            <p className="text-xl text-muted-foreground sm:text-2xl">
+            <p className="text-xl text-primary-foreground/80 sm:text-2xl">
               {profile.title}
             </p>
-            <p className="mx-auto max-w-xl text-lg text-foreground/80">
+            <p className="mx-auto max-w-xl text-lg text-primary-foreground/90">
               {profile.bio}
             </p>
           </div>
           <div className="flex gap-4">
-            <Button asChild size="lg">
+            <Button asChild size="lg" variant="secondary">
               <Link href="#contact">Contact Me</Link>
             </Button>
-            <Button asChild variant="secondary" size="lg">
+            <Button asChild variant="outline" size="lg" className="bg-transparent text-primary-foreground hover:bg-primary-foreground hover:text-primary">
               <Link href="/resume-rewriter">AI Resume Tool</Link>
             </Button>
           </div>
