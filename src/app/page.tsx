@@ -5,11 +5,13 @@ import { Contact } from "@/components/sections/contact";
 
 export default function Home() {
   return (
-    <div className="container mx-auto max-w-5xl px-4">
+    <>
       <Hero />
-      <Skills />
-      <Projects />
-      <Contact />
-    </div>
+      <div className="container mx-auto max-w-5xl px-4">
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
+    </>
   );
 }
