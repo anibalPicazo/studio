@@ -12,7 +12,6 @@ import { cn } from "@/lib/utils";
 
 const navItems = [
   { href: "/", label: "Home" },
-  { href: "/resume-rewriter", label: "AI Resume Tool" },
 ];
 
 export function Header() {

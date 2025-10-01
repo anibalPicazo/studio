@@ -1,7 +1,8 @@
 import { Hero } from "@/components/sections/hero";
 import { Projects } from "@/components/sections/projects";
 import { Skills } from "@/components/sections/skills";
-import { Contact } from "@/components/sections/contact";
+import { Stack } from "@/components/sections/stack";
+import { Frameworks } from "@/components/sections/frameworks";
 
 export default function Home() {
   return (
@@ -10,7 +11,8 @@ export default function Home() {
       <div className="container mx-auto max-w-5xl px-4">
         <Skills />
         <Projects />
-        <Contact />
+        <Stack />
+        <Frameworks />
       </div>
     </>
   );

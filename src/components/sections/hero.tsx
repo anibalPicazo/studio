@@ -33,10 +33,10 @@ export function Hero() {
           </div>
           <div className="flex gap-4">
             <Button asChild size="lg" variant="secondary">
-              <Link href="#contact">Contact Me</Link>
+              <Link href="#stack">My Stack</Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="bg-transparent text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-              <Link href="/resume-rewriter">AI Resume Tool</Link>
+              <Link href="#projects">My Projects</Link>
             </Button>
           </div>
         </div>
