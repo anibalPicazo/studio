@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "avatar",
+      "description": "A professional portrait of a person.",
+      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTkyNDQ1MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional portrait"
+    },
+    {
+      "id": "project1",
+      "description": "Screenshot of a modern web application dashboard.",
+      "imageUrl": "https://images.unsplash.com/photo-1583932692875-a42450d50acf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3ZWIlMjBkYXNoYm9hcmR8ZW58MHx8fHwxNzU5MzAwOTM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "web dashboard"
+    },
+    {
+      "id": "project2",
+      "description": "A mobile application interface for social networking.",
+      "imageUrl": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzU5MjU4NTMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile app"
+    },
+    {
+      "id": "project3",
+      "description": "An e-commerce website showing a product page.",
+      "imageUrl": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxlY29tbWVyY2UlMjB3ZWJzaXRlfGVufDB8fHx8MTc1OTI1NTg1Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ecommerce website"
+    }
+  ]
 }
